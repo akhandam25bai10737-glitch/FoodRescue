@@ -1,0 +1,11 @@
+# Compiled Java files
+*.class
+
+# Generated allocation data
+allocations.txt
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
