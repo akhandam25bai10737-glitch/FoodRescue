@@ -14,6 +14,8 @@ import java.util.List;
 public class FileService {
 
     // Save allocation history to file
+
+    //Allcation
     public void saveAllocations(List<Allocation> allocations) {
 
         try (BufferedWriter writer =
@@ -70,6 +72,7 @@ public class FileService {
             System.out.println(
                     "Error reading allocation history: "
                             + e.getMessage()
+
             );
         }
     }
